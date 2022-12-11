@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AGNetworkManager"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Basic Network Manager"
   spec.description  = "Network Manager to directly use and easy to work."
 
