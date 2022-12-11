@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AGNetworkManager"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Basic Network Manager"
   spec.description  = "Network Manager to directly use and easy to work."
 
@@ -12,7 +12,9 @@ Pod::Spec.new do |spec|
 #    spec.ios.deployment_target = "12.1"
   spec.platform     = :ios, "11.0"
 #  spec.swift_version = "4.2"
-  spec.source_files  = ["Sources/**/*.{swift}", "AGNetworkManager/**/*.{h*,swift}"]
+#  spec.source_files  = ["Sources/**/*.{swift}", "AGNetworkManager/**/*.{h*,swift}"]
 #  spec.public_header_files = "AGNetworkManager/**/*.h"
+  spec.swift_version = "4.2"
+  spec.source_files  = "AGNetworkManager/**/*.swift"
 
 end
