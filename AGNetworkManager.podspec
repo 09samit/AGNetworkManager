@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
 #  spec.source_files  = ["Sources/**/*.{swift}", "AGNetworkManager/**/*.{h*,swift}"]
 #  spec.public_header_files = "AGNetworkManager/**/*.h"
   spec.swift_version = "4.2"
-  spec.source_files  = "AGNetworkManager/**/*.swift"
+  spec.source_files  = "AGNetworkManager/**/*.{h*,swift}"
 
 end
